@@ -1,9 +1,10 @@
+#importing files for hashing and blockchain
 from Hash import hash_generator
 from BlockChain_update import DIFFICULTY,update
 import time
 import pandas as pd
 
-df=pd.read_csv("BlockChain_data.csv")
+df=pd.read_csv("Enter-your-file-path")
 
 def mine(text):
     nounce=0
